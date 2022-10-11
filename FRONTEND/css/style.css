@@ -2,8 +2,8 @@
 .bg-black{
     background-color: #000;
 }
-body{
-    background-image: url("../img/city-gb.png");
+section.banner{
+    background-image: url("/FRONTEND/img/city-gb.png");
     width: 100;
     height: 100vh;
     position: relative
