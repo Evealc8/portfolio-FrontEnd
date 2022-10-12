@@ -1,17 +1,18 @@
 /* fondo de la barra*/
-.bg-black{
+nav.bg-black{
     background-color: #000;
 }
 
-.banner{
-    background-image: url("/FRONTEND/img/city-gb.png");
-    width: 100;
+#fondo{
+    background-image: url("img/city-gb.png");
+    width: 25;
     height: 100vh;
-    position: relative
     background-repeat: no-repeat;
+    position: relative;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -msn-background-size: cover;
+
 }
