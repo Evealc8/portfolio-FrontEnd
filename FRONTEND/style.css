@@ -5,8 +5,8 @@ nav.bg-black{
 
 #fondo{
     background-image: url("img/city-gb.png");
-    width: 25;
-    height: 100vh;
+    
+    height: 300px;
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
@@ -15,4 +15,23 @@ nav.bg-black{
     -o-background-size: cover;
     -msn-background-size: cover;
 
+}
+.perfil{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+h1.intro{
+    padding-top: 35%;
 }
