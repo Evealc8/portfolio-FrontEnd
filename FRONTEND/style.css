@@ -47,9 +47,17 @@ h1.intro{
     padding-top: 35%;
 }
 
-#educacion{
-    background-color: #f79dc1;
+.educacion{
+    background-color: rgb(180, 194, 248);
 }
-#educacion .container{
-    padding: 150px 10px;
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+#carouselExampleControls{
+    padding: 50px;
 }
