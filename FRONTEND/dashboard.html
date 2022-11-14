@@ -26,74 +26,139 @@
     </div>
   </nav>
 
-<!-- PANEL DE ADMINISTRADOR-->
+ 
+
+  <div class="row">
+    <div class="col-1">
+      <nav class="vertical" id="list-tab" role="tablist">
+        <ul>
+          <li class="vertical">
+          <a class="list-group-item list-group-item-action active text-white" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home"><i class="fa-solid fa-users"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile"><i class="fa-solid fa-address-card"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-AboutMe-list" data-bs-toggle="list" href="#list-AboutMe" role="tab" aria-controls="list-AboutMe"><i class="fa-solid fa-file-lines"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-school-list" data-bs-toggle="list" href="#list-school" role="tab" aria-controls="list-school"><i class="fa-sharp fa-solid fa-school"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-certificated-list" data-bs-toggle="list" href="#list-certificated" role="tab" aria-controls="list-certificated"><i class="fa-solid fa-certificate"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-skills-list" data-bs-toggle="list" href="#list-skills" role="tab" aria-controls="list-skills"><i class="fa-solid fa-bars-progress"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-projects-list" data-bs-toggle="list" href="#list-projects" role="tab" aria-controls="list-projects"><i class="fa-solid fa-diagram-project"></i></a>
+          </li>
+        </ul>
+      </nav>
+      
+    </div> 
+    <div class="col-11 mt-5">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active text-white" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+
+          <div class="container1">
+            <form>
+              <form>
+                <div class="mb-3 text-white">
+                  <label for="linkedIn" class="form-label">LinkedIn</label>
+                  <input type="text" class="form-control" placeholder="enlace" id="LinkedIn" aria-describedby="emailHelp">
+                </div>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="mb-3 text-white">
+                  <label for="facebook" class="form-label">Facebook</label>
+                  <input type="text" class="form-control" placeholder="enlace" id="Facebook">
+                </div>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="mb-3 text-white">
+                  <label for="gitHub" class="form-label">GitHub</label>
+                  <input type="text" class="form-control" placeholder="enlace" id="Facebook">
+                </div>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </form>
+          </div>
+
+        </div>
+        <div class="tab-pane fade text-white" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">PERFIL</div>
+        <div class="tab-pane fade text-white" id="list-AboutMe" role="tabpanel" aria-labelledby="list-AboutMe-list">ACERCA DE MI</div>
+        <div class="tab-pane fade text-white" id="list-school" role="tabpanel" aria-labelledby="list-school-list">EDUCACION</div>
+        <div class="tab-pane fade text-white" id="list-certificated" role="tabpanel" aria-labelledby="list-certificated-list">CERTIFICADOS</div>
+        <div class="tab-pane fade text-white" id="list-skills" role="tabpanel" aria-labelledby="list-skills-list">HABILIDADES</div>    
+        <div class="tab-pane fade text-white" id="list-projects" role="tabpanel" aria-labelledby="list-projects-list">PROYECTOS</div>      
+      </div>
+    </div>
+  </div>
+
+
+<!--PANEL DE ADMINISTRADOR
   <div class="container3-fluid text-center">
     <div class="row">
       <div class="col-1">
       </div>
-      <div class="col-2">
-        <ul class="list-group">
-
+      <div class="col-2 pt-3">
             <img src="img/perfil.jpeg" alt="foto_de_perfil" class="avatar ">
-            
-            <h5 class="intro text-white text-center">
+            <h5 class="intro mt-3 text-white text-center">
                 Evelyn Romina Alcaraz </h5>
-            <h5 class="intro text-white text-center">
+            <h5 class="intro  mt-3 text-white text-center">
                 Desarrollador Full Stack Jr.</h5>
-            <!--Redes-->
-            <li class="list-group-item"><i class="fa-solid text-white fa-users"></i></li>
-            <!--Banner-->
-            <li class="list-group-item"><i class="fa-solid text-white fa-address-card"></i></li>
-            <!--Acerca de mi-->
-            <li class="list-group-item"></i><i class="fa-solid text-white fa-file-lines"></i></li>
-            <!--Educacion-->
-            <li class="list-group-item"><i class="fa-sharp fa-solid text-white fa-school"></i></li>
-            <!--Cursos-->
-            <li class="list-group-item"><i class="fa-solid text-white fa-certificate"></i> </i></li>
+          <ul class="list-group mt-3 "></ul>
+            Redes
+              <li class="list-group-item admin"><a href="#" data-bs-toggle="modal" data-bs-target="#redesModal"><i class="fa-solid text-white fa-users"> Redes</i></a></li>
+            Banner
+              <li class="list-group-item admin"><a href="#"><i class="fa-solid text-white fa-address-card"> Banner </i></a></li>
+            Acerca de mi
+              <li class="list-group-item admin"><a href="#"><i class="fa-solid text-white fa-file-lines"> Acerca de mi </i></a></li>
+            Educacion
+              <li class="list-group-item admin"><a href="#"><i class="fa-sharp fa-solid text-white fa-school"> Educacion </i></a></li>
+            Cursos
+              <li class="list-group-item admin"><a href="#"><i class="fa-solid text-white fa-certificate"> Certificados </i></a></li>
           </ul>
-    </div>
+    </div> -->
+    
     <div class="col-8">
+      <!--Redes Modal-->
+      <div class="modal fade" id="redesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!--formulario para login-->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" placeholder="Correo electrónico" id="exampleInputEmail1" aria-describedby="emailHelp">
+           </div>
+           <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" placeholder="Contraseña" id="exampleInputPassword1">
+            </div>
+          </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-1">
     </div>
     </div>
   </div>
 
-  <!--Cuerpo de login-->
-  <!--Columnas-->
-  <section class="login">
-  <div class="container2 text-center">
-    <div class="row">
-      <div class="col-4">
-      </div>
-      <div class="col-4 formulario-login">
-        <div class="modal-body">
-          <!--formulario para login-->
-          <form>
-            <div class="mb-3 text-white">
-              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-              <input type="email" class="form-control" placeholder="Correo electrónico" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3 text-white">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" placeholder="Contraseña" id="exampleInputPassword1">
-            </div>
-          </form>
-    </div>
-    <div class="modal-footer">
-      <button type="submit" class="btn btn-secondary">Iniciar sesion</button>
-    </div>
-    <small>¿Aún no tienes cuenta? <a href="register.html">Registrate</a></small>
-      </div>
-      <div class="col-4">
-      </div>
-    </div>
-  </div>
-</section>
+  
 
    <!--Footer-->
    <footer> 
-    <div class="container">
+    <div class="container3">
       <p>&copy;CopyRight Evelyn Romina Alcaraz - 2022 </p>
     </div>
   </footer>  

@@ -178,12 +178,15 @@ h1.intro{
 h5.circle{
     color: #fff;
 }
+/*FIN CIRCULOS DE PROGRESO*/
 
-footer .container{
+footer .container3{
     padding: 0px;
     display:flex;
     justify-content: center;
     align-items: flex-end;
+    position: fixed;
+    bottom: 0;
 }
 
 /* LOGIN */
@@ -198,3 +201,32 @@ footer .container{
 .formulario-register{
     margin-top: 5%;
 }
+
+/*DASHBOARD*/
+.admin{
+    margin-top: 8px;
+}
+
+nav.vertical{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+}
+
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 1rem 0;
+    
+}
+
+a.list-group-item,a:hover{
+    text-decoration: none;
+    color: #cbc9c9;
+}
+
+a.list-group-item:hover{
+    color: #ffffff;
+}
+
