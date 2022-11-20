@@ -31,7 +31,7 @@ nav{
         rgba(0,0,0,0.5)
     )
     ,url("img/city-gb.png");
-    height: 300px;
+    height: 18.75rem;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -39,7 +39,7 @@ nav{
 /* div donde va mi perfil*/
 .perfil{
     display: flex;
-    padding: 50px;
+    padding: 3.125rem;
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
@@ -48,12 +48,12 @@ nav{
 
 /*mi foto de perfil*/
 .avatar{
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
     border-radius: 50%;
     align-self: center;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 0.313rem;
+    margin-left: 0.313rem;
 }
 
 h1.intro{
@@ -67,62 +67,62 @@ h1.intro{
 }
 /*columnas de acerca de mi*/
 .presentacion .col{
-    padding: 40px;
-    margin-bottom: 0px;
+    padding: 2.5rem;
+    margin-bottom: 0%;
 }
 
 .container div {
-    min-width: 200px;
-    max-width: 1400px;
+    min-width: 12.5rem;
+    max-width: 87.5rem;
     background-color: rgb(245,245,245);
 }
 
 
 /*container general*/
 .container{
-    padding: 30px;
+    padding: 1.875rem;
     text-align: center;
 }
 
 /*cada educacion*/
 .educacion .titulos{
-    padding: 60px;
+    padding: 3.75rem;
 }
 
 /*logos de educacion*/
 .iconosEd{
-    width: 50px;
-    right: 50px;
+    width: 3.175rem;
+    right: 3.175rem;
 }
 
 /*cada columna de los certificados*/
 .cursos .col-6{
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 400px 300px;
-    padding: 200px;
+    background-size: 25rem 18.75rem;
+    padding: 12.5rem;
 }
 
 /*cada certificado*/
 .certificado1{
-    background-image: url(img/Certificado-CIVIL3D.JPG);
+    background-image: url(img/Certificado-CIVIL3D.png);
     
 }
 .certificado2{
-    background-image: url(img/Certificado-MundoDigital.JPG);
+    background-image: url(img/Certificado-MundoDigital.png);
 }
 .certificado3{
-    background-image: url(img/Certificado-SeProgramar.JPG);
+    background-image: url(img/Certificado-SAP2000.png);
 }
 .certificado4{
-    background-image: url(img/Certificado-SAP2000.JPG);
+    background-image: url(img/Certificado-SeProgramar.png);
 }
 
 /*container en el index y dashboard*/
 .container1{
-    padding: 10px;
-    min-width: 250px;
-    max-width: 1400px;
+    padding: 0.625rem;
+    min-width: 15.625rem;
+    max-width: 87.5rem;
 }
 
 /*CIRCULOS DE PROGRESO*/
@@ -130,8 +130,8 @@ h1.intro{
     position: relative;
     display: inline-block;
     margin: 1rem;
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
     border-radius: 50%;
     background-color: #ebebeb; }
   
@@ -151,11 +151,11 @@ h1.intro{
     left: 50%;
     top: 50%;
     display: block;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    margin-left: -45px;
-    margin-top: -45px;
+    width: 5.625rem;
+    height: 5.625rem;
+    line-height: 5.625rem;
+    margin-left: -2.813rem;
+    margin-top: -2.813rem;
     text-align: center;
     border-radius: 50%;
     background: rgb(0, 0, 0);
@@ -256,5 +256,5 @@ p.footer{
 /*solo container del footer del dashboard*/ 
 .container4{
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
