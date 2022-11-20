@@ -4,4 +4,8 @@
 ## M: modified (modificado)
 ## A: added (agregado .git)
 
-### 12/11/22 Retomo desde FrontEnd
+### Index: Proyecto
+### Login: inicio de sesión
+### Register: Registro de usuario
+### Dashboard: Pamel de administración
+### style: estilos generales
