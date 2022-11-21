@@ -40,9 +40,6 @@ nav{
 .perfil{
     display: flex;
     padding: 3.125rem;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
     align-items: flex-end;
 }
 
@@ -70,13 +67,14 @@ h1.intro{
     padding: 2.5rem;
     margin-bottom: 0%;
 }
-
 .container div {
-    min-width: 12.5rem;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    min-width: 20rem;
     max-width: 87.5rem;
     background-color: rgb(245,245,245);
 }
-
 
 /*container general*/
 .container{
@@ -84,39 +82,25 @@ h1.intro{
     text-align: center;
 }
 
-/*cada educacion*/
-.educacion .titulos{
-    padding: 3.75rem;
+/*educacion*/
+.educacion .container{
+    padding-bottom: 2rem;
 }
-
 /*logos de educacion*/
 .iconosEd{
     width: 3.175rem;
     right: 3.175rem;
 }
 
-/*cada columna de los certificados*/
-.cursos .col-6{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25rem 18.75rem;
-    padding: 12.5rem;
-}
 
-/*cada certificado*/
-.certificado1{
-    background-image: url(img/Certificado-CIVIL3D.png);
+/*img certificados*/
+.certificado{
+    width: 75%;
+    height: 80%;
+    background-size: cover;
     
 }
-.certificado2{
-    background-image: url(img/Certificado-MundoDigital.png);
-}
-.certificado3{
-    background-image: url(img/Certificado-SAP2000.png);
-}
-.certificado4{
-    background-image: url(img/Certificado-SeProgramar.png);
-}
+
 
 /*container en el index y dashboard*/
 .container1{
