@@ -7,5 +7,5 @@
 ### Index: Proyecto
 ### Login: inicio de sesión
 ### Register: Registro de usuario
-### Dashboard: Pamel de administración
+### Dashboard: Panel de administración
 ### style: estilos generales
